@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "9RF13bD2upLUB6+dqLNTL+FHGrvAyLBF639fiiUMU4lRfgJ5/X3eOfKC/6aGgfDP+zw8BrvluFb1Xt53MVnC/g==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\m.pais\\_Workspaces\\_Development\\EMS_D\\Services\\ems-anpr-service\\ANPR.Application\\ANPR.Application.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\m.pais\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

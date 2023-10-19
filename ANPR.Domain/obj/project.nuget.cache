@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KIbkHpdsMskKitWMqlHzJIa//zeR5/XnYJp48P4Rn/oAh52S1h1ytpf8V8cVXRu8+VqOEVP3uVfxXBytKuhKlw==",
+  "success": true,
+  "projectFilePath": "D:\\Users\\m.pais\\_Workspaces\\_Development\\EMS_D\\Services\\ems-anpr-service\\ANPR.Domain\\ANPR.Domain.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\m.pais\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "D:\\Users\\m.pais\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

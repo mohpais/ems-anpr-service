@@ -1,0 +1,15 @@
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\bin\Debug\net7.0\ANPR.UnitTest.exe
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\bin\Debug\net7.0\ANPR.UnitTest.deps.json
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\bin\Debug\net7.0\ANPR.UnitTest.runtimeconfig.json
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\bin\Debug\net7.0\ANPR.UnitTest.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\bin\Debug\net7.0\ANPR.UnitTest.pdb
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.csproj.AssemblyReference.cache
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.AssemblyInfoInputs.cache
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.AssemblyInfo.cs
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.csproj.CoreCompileInputs.cache
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\refint\ANPR.UnitTest.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.pdb
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ANPR.UnitTest.genruntimeconfig.cache
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.UnitTest\obj\Debug\net7.0\ref\ANPR.UnitTest.dll
