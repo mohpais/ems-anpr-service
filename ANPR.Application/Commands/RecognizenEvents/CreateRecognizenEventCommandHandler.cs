@@ -17,10 +17,17 @@ namespace Microsoft.Lonsum.Services.ANPR.Application.Commands
         public async Task<bool> Handle(
             CreateRecognizenEventCommand command, CancellationToken cancellationToken)
         {
-            var recognize = new RecognizenEvent("ANPR", command.OriginalLicensePlate, command.PlateNumber, "", command.VehicleType, "", "", "", "Dolok", command.EmpCode, "Devin", command.CaptureDate);
-            _repository.Add(recognize);
-            return await _repository.UnitOfWork
-                .SaveEntitiesAsync(cancellationToken);
+            try
+            {
+                var recognize = new RecognizenEvent("ANPR", command.OriginalLicensePlate, command.PlateNumber, command.PlateColor, command.VehicleType, command.VehicleColor, "", command.PlateImagePath, "Dolok", command.EmpCode, "m.pais", command.CaptureDate);
+                _repository.Add(recognize);
+                return await _repository.UnitOfWork
+                    .SaveEntitiesAsync(cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
         }
     }
 }

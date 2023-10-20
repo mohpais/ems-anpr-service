@@ -30,22 +30,22 @@ namespace Microsoft.Lonsum.Services.ANPR.Infrastructure.Repositories
 
         public RecognizenEvent Add(RecognizenEvent entity)
         {
-            //return _context.RecognizenEvents.Add(entity).Entity;
-            recognizenEvents.Add(entity);
-            return entity;
+            return _context.RecognizenEvents.Add(entity).Entity;
+            //recognizenEvents.Add(entity);
+            //return entity;
         }
 
         public async Task<List<RecognizenEvent>> GetAll()
         {
-            //var data = await _context.RecognizenEvents.ToListAsync();
+            var data = await _context.RecognizenEvents.ToListAsync();
 
-            //if (data == null)
-            //{
-            //    data = _context.RecognizenEvents.Local
-            //        .ToList();
-            //}
-            //return data;
-            return recognizenEvents;
+            if (data == null)
+            {
+                data = _context.RecognizenEvents.Local
+                    .ToList();
+            }
+            return data;
+            //return recognizenEvents;
         }
 
         public void Update(RecognizenEvent entity)

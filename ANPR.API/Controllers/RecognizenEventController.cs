@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Lonsum.Services.ANPR.API.ViewModels;
 using Microsoft.Lonsum.Services.ANPR.Application.Commands;
 using Microsoft.Lonsum.Services.ANPR.Application.Repositories;
 using System.Net;
@@ -35,28 +36,47 @@ namespace ANPR.API.Controllers
         [HttpPost]
         [ProducesResponseType((int)HttpStatusCode.OK)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        public async Task<IActionResult> CreateRecognizenEvent([FromBody] CreateRecognizenEventCommand command, [FromHeader(Name = "x-requestid")] string requestId)
+        public async Task<IActionResult> CreateRecognizenEvent([FromForm] CreateRecognizenEventDTO parameters)
         {
             try
             {
-                //var requestOrder = Cre
-                //bool commandResult = false;
-                //requestId = Guid.NewGuid().ToString();
-                //command.EmpCode = "50144438";
+                IFormFile file = parameters.File;
+                // Get the current date and time
+                var currentDate = DateTime.Now;
+                // Format the date to "yyyy-MM-dd" as a string
+                string formattedDate = currentDate.ToString("yyyy-MM-dd");
+                // Save the file to folder
+                string folderPath = Path.Combine(Directory.GetCurrentDirectory(), $"Files\\{formattedDate}");
+                if (!Directory.Exists(folderPath))
+                    Directory.CreateDirectory(folderPath);
 
-                //if (Guid.TryParse(requestId, out Guid guid) && guid != Guid.Empty)
-                //{
-                //    var requestOrder = new IdentifiedCommand<CreateRecognizenEventCommand, bool>(command, guid);
+                // Generate a unique file name for the temporary image
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + file.FileName;
+                string filePath = Path.Combine(folderPath, uniqueFileName);
+                // Save the uploaded image to the temporary folder
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
 
-                //    _logger.LogInformation(
-                //        "----- Sending command: {CommandName} ({@Command})",
-                //        requestOrder.GetGenericTypeName(),
-                //        requestOrder);
-
-                var commandResult = await _mediator.Send(command);
+                var requestOrder = new CreateRecognizenEventCommand(
+                    parameters.OriginalLicensePlate, 
+                    parameters.PlateNumber, 
+                    parameters.PlateColor,
+                    parameters.VehicleType,
+                    parameters.VehicleColor,
+                    filePath,
+                    "50157587",
+                    parameters.CaptureDate
+                );
+                var commandResult = await _mediator.Send(requestOrder);
 
                 if (!commandResult)
+                {
+                    if (System.IO.File.Exists(filePath))
+                        System.IO.File.Delete(filePath);
                     return BadRequest();
+                }
 
                 return Ok();
             }

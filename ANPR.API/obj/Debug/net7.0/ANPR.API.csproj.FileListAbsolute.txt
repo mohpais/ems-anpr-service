@@ -83,3 +83,15 @@ D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.AP
 D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\ANPR.Application.pdb
 D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\ANPR.Infrastructure.pdb
 D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\ANPR.Domain.pdb
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Azure.Core.Amqp.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Azure.Messaging.ServiceBus.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Microsoft.Azure.Amqp.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Polly.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Polly.Core.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\RabbitMQ.Client.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Humanizer.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\System.CodeDom.dll
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

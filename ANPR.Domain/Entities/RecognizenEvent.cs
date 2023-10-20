@@ -50,6 +50,10 @@ namespace Microsoft.Lonsum.Services.ANPR.Domain.Entities
             OperatorId = empCode;
             OperatorName = createBy;
             CaptureDate = captureDate;
+            CreateBy = createBy;
+            CreateDate = DateTime.Now;
+            LastUpdateBy = createBy;
+            LastUpdateDate = DateTime.Now;
         }
     }
 }

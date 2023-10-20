@@ -18,3 +18,5 @@ D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.In
 D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.Infrastructure\bin\Debug\net7.0\ANPR.Application.pdb
 D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.Infrastructure\bin\Debug\net7.0\ANPR.Domain.pdb
 D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.Infrastructure\obj\Debug\net7.0\ANPR.Infrastructure.csproj.CopyComplete
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.Infrastructure\bin\Debug\net7.0\ANPR.Infrastructure.runtimeconfig.json
+D:\Users\m.pais\_Workspaces\_Development\EMS_D\Services\ems-anpr-service\ANPR.Infrastructure\obj\Debug\net7.0\ANPR.Infrastructure.genruntimeconfig.cache
